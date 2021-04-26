@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="730px" height="259px" viewBox="0 0 730 259" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>trust-logo-black</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="trust-logo-black" fill-rule="nonzero">
+            <circle id="椭圆形" fill="#EA4436" cx="186" cy="203" r="18"></circle>
+            <g id="路径-4">
+                <g id="path-2-link" fill="#DBE4F5">
+                    <path d="M97,124 L153,182.645502 L153,219.283677 L97,258.143581 L97,124 Z M0,0 L250,0.147932264 L222,55.1479323 L153,55.1479323 L153,155.645502 L97,97 L97,55.39463 L28,55.39463 L0,0 Z" id="path-2"></path>
+                </g>
+                <g id="path-2-link">
+                    <path d="M97,124 L153,182.645502 L153,219.283677 L97,258.143581 L97,124 Z M0,0 L250,0.147932264 L222,55.1479323 L153,55.1479323 L153,155.645502 L97,97 L97,55.39463 L28,55.39463 L0,0 Z" id="path-2"></path>
+                </g>
+            </g>
+            <text id="Domains" fill="#DBE4F5" font-family="ArialRoundedMTBold, Arial Rounded MT Bold" font-size="100" font-weight="normal">
+                <tspan x="305" y="215">Domains</tspan>
+            </text>
+            <text id="Trust" fill="#DBE4F5" font-family="ArialRoundedMTBold, Arial Rounded MT Bold" font-size="100" font-weight="normal">
+                <tspan x="305" y="103">Trust</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

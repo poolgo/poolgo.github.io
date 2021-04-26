@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="96px" height="96px" viewBox="0 0 96 96" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>cfx-logo</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="cfx" fill-rule="nonzero">
+            <circle id="椭圆形" fill="#5532D4" cx="48" cy="48" r="48"></circle>
+            <g transform="translate(20.000000, 13.000000)" id="路径">
+                <polygon stroke="#3FA2D9" stroke-width="0.5" fill="#3FA2D9" points="0 28.3976197 28.5407441 0 57 28.5449155 56.9885916 42 28.3325787 13.5291761 0.000444481412 41.7057042 0 41.5224718"></polygon>
+                <polygon fill="#FFFFFF" points="27.9997037 26 34.9944183 32.8673245 19.8611509 48.2544359 28.126945 56.3931248 43.2603605 41.2603752 50 48.127255 28.126945 70 6.2543344 48.3816168 6 48.2544359"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="153px" height="188px" viewBox="0 0 153 188" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Slice 1</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="cfx" transform="translate(1.046875, 0.734375)" fill-rule="nonzero" stroke-width="0.5">
+            <polygon id="路径" stroke="#3FA2D9" fill="#3FA2D9" points="0.0203125 75.1433594 75.2679688 0.134765625 150.300781 75.5324219 150.270703 111.072266 74.7191406 35.8703125 0.021484375 110.294922 0.0203125 109.810937"></polygon>
+            <polygon id="路径" stroke="#FFFFFF" fill="#FFFFFF" points="74.8402344 70.9363281 93.2859375 89.0335937 53.378125 129.582812 75.1757813 151.030469 115.083984 111.151562 132.857031 129.247656 75.1757813 186.888281 17.4957031 129.917969 16.825 129.582812"></polygon>
+        </g>
+    </g>
+</svg>
