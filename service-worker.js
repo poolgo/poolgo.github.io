@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "precache-manifest.2ca62ddc2200f917b24ed55f8f87fe27.js"
+  "precache-manifest.5372711c76a31d2a0e369aa2d62bf3db.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "PoolGo"});
