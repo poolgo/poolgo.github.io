@@ -1,4 +1,4 @@
-importScripts("https://cdn.myun.info/workbox-v4.3.1/workbox-sw.js", "precache-manifest.7a02ff48f6096f394253bc79532daa5c.js");
+importScripts("https://cdn.myun.info/workbox-v4.3.1/workbox-sw.js", "precache-manifest.564ac215b456d0839dbe84c21012c680.js");
 
 importScripts('https://storage.googleapis.com/workbox-cdn/releases/3.3.0/workbox-sw.js');
 workbox.precaching([
