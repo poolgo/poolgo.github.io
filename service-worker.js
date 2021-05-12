@@ -1,34 +1,31 @@
-/**
- * Welcome to your Workbox-powered service worker!
- *
- * You'll need to register this file in your web app and you should
- * disable HTTP caching for this file too.
- * See https://goo.gl/nhQhGp
- *
- * The rest of the code is auto-generated. Please don't update this file
- * directly; instead, make changes to your Workbox build configuration
- * and re-run your build process.
- * See https://goo.gl/2aRDsh
- */
+importScripts("https://cdn.myun.info/workbox-v4.3.1/workbox-sw.js", "precache-manifest.4b96da4f903655c0716292171efb7a47.js");
 
-importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
+// workbox.precaching([
+//     // 注册成功后要立即缓存的资源列表
+// ])
+// //
 
-importScripts(
-  "precache-manifest.2c6543fd7d4c3a0a732b9afd0e3c3917.js"
+// //
+
+// self.__precacheManifest = [].concat(self.__precacheManifest || []);
+// workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
+
+workbox.core.skipWaiting(); // 强制等待中的 Service Worker 被激活
+workbox.core.clientsClaim(); // Service Worker 被激活后使其立即获得页面控制权
+
+
+// vue-cli3.0 supports pwa with the help of workbox-webpack-plugin, we need to get the precacheing list through this sentence.
+workbox.precaching.precacheAndRoute(self.__precacheManifest || []);
+
+workbox.routing.registerRoute(
+    new RegExp('.*\.html'),
+    workbox.strategies.networkFirst()
 );
-
-workbox.core.setCacheNameDetails({prefix: "PoolGo"});
-
-self.addEventListener('message', (event) => {
-  if (event.data && event.data.type === 'SKIP_WAITING') {
-    self.skipWaiting();
-  }
-});
-
-/**
- * The workboxSW.precacheAndRoute() method efficiently caches and responds to
- * requests for URLs in the manifest.
- * See https://goo.gl/S9QRab
- */
-self.__precacheManifest = [].concat(self.__precacheManifest || []);
-workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
+workbox.routing.registerRoute(
+    new RegExp('.*\.(?:js|css)'),
+    workbox.strategies.networkFirst()
+);
+workbox.routing.registerRoute(
+    /\.(?:png|gif|jpg|jpeg|svg)$/,
+    workbox.strategies.networkFirst()
+);
